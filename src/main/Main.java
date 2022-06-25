@@ -1,4 +1,3 @@
-package src.main;
 
 import cglib.TesstProxy;
 import observer.BinaryObserver;

@@ -1,4 +1,3 @@
-package src.main;
 
 class Solution {
     public int[] twoSum(int[] nums, int target) {

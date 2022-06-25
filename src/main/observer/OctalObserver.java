@@ -1,4 +1,4 @@
-package src.main.observer;
+package observer;
 
 public class OctalObserver extends Observer{
 
