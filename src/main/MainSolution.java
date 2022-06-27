@@ -7,6 +7,6 @@ import java.util.concurrent.*;
 public class MainSolution {
     public static void main(String[] args) {
         Solution s = new Solution();
-        System.out.println(s.addStrings("123","456"));
+        System.out.println();
     }
 }
