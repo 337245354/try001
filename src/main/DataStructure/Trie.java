@@ -1,8 +1,8 @@
 package DataStructure;
 
 class Trie {
-    private Trie[] children;
-    private boolean isEnd;
+    public Trie[] children;
+    public boolean isEnd;
 
     public Trie() {
         children = new Trie[26];
@@ -31,7 +31,7 @@ class Trie {
         return searchPrefix(prefix) != null;
     }
 
-    private Trie searchPrefix(String prefix) {
+    public Trie searchPrefix(String prefix) {
         Trie node = this;
         for (int i = 0; i < prefix.length(); i++) {
             char ch = prefix.charAt(i);
