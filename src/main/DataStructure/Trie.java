@@ -1,6 +1,6 @@
 package DataStructure;
 
-class Trie {
+public class Trie {
     public Trie[] children;
     public boolean isEnd;
 
