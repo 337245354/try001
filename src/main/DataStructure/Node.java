@@ -2,7 +2,7 @@ package DataStructure;
 
 import java.util.*;
 
-class Node {
+public class Node {
     public int val;
     public Node left;
     public Node right;
