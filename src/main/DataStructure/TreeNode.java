@@ -41,7 +41,7 @@ public class TreeNode {
     }
 
     // String str = "[3,9,20,null,null,15,7]";
-    // TreeNode a = TreeNode.mkTree(str);
+    // TreeNode treeNode = TreeNode.mkTree(str);
     public static TreeNode mkTree(String str) {
         int []arr = StrToIntArray(str);
         TreeNode []nodes = new TreeNode[arr.length + 1];
