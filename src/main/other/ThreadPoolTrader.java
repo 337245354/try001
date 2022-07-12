@@ -1,14 +1,5 @@
+package other;
 
-import cglib.TesstProxy;
-import observer.BinaryObserver;
-import observer.HexaObserver;
-import observer.OctalObserver;
-import observer.Subject;
-
-import java.io.*;
-import java.lang.reflect.Array;
-import java.text.*;
-import java.util.*;
 import java.util.concurrent.*;
 import java.util.concurrent.atomic.AtomicInteger;
 
