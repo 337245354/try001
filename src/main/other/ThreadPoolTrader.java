@@ -87,7 +87,7 @@ public class ThreadPoolTrader implements Executor {
 
     public static void main(String[] args) {
         ThreadPoolTrader threadPoolTrader = new ThreadPoolTrader(2, 2, new ArrayBlockingQueue<Runnable>(10));
-
+        ThreadPoolExecutor threadPoolExecutor = new ThreadPoolExecutor(2, 2, 1000, TimeUnit.MILLISECONDS,new ArrayBlockingQueue<Runnable>(10));
         for (int i = 0; i < 10; i++) {
             int finalI = i;
             threadPoolTrader.execute(() -> {
