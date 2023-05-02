@@ -1,4 +1,4 @@
-package DataStructure;
+package src.main.DataStructure;
 
 public class Trie {
     public Trie[] children;

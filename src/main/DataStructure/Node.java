@@ -1,4 +1,4 @@
-package DataStructure;
+package src.main.DataStructure;
 
 import java.util.*;
 

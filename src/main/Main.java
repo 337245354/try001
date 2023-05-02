@@ -1,4 +1,6 @@
-import DataStructure.*;
+package src.main;
+
+import src.main.DataStructure.*;
 import java.io.*;
 import java.lang.reflect.Array;
 import java.text.*;
@@ -7,7 +9,7 @@ import java.util.concurrent.*;
 
 public class Main {
     public static void main(String[] args) {
-
+        System.out.println("17");
     }
 }
 
