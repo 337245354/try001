@@ -1,4 +1,4 @@
-package src.main.ConcurrentProgramming;
+package ConcurrentProgramming;
 
 import java.util.ArrayList;
 import java.util.concurrent.locks.ReentrantReadWriteLock;

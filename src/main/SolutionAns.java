@@ -1,6 +1,4 @@
-package src.main;
-
-import src.main.DataStructure.*;
+import DataStructure.*;
 import java.util.*;
 import java.io.*;
 import java.lang.reflect.Array;

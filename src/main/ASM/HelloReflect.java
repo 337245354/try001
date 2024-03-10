@@ -1,4 +1,4 @@
-package src.main.ASM;
+package ASM;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;

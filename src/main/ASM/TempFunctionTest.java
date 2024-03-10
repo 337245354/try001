@@ -1,4 +1,4 @@
-package src.main.ASM;
+package ASM;
 
 public class TempFunctionTest {
     public static void main(String[] args) {
