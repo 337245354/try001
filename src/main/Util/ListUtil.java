@@ -4,7 +4,7 @@ import DataStructure.ListNode;
 
 public class ListUtil {
 
-    private ListNode arrayToList(int[] arr) {
+    public static ListNode arrayToList(int[] arr) {
         ListNode dummy = new ListNode(0);
         ListNode curr = dummy;
         for (int num : arr) {
@@ -14,7 +14,7 @@ public class ListUtil {
         return dummy.next;
     }
 
-    private int[] listToArray(ListNode head) {
+    public static  int[] listToArray(ListNode head) {
         int[] temp = new int[100];
         int count = 0;
         while (head != null) {
