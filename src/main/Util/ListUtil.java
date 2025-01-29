@@ -14,7 +14,7 @@ public class ListUtil {
         return dummy.next;
     }
 
-    public static  int[] listToArray(ListNode head) {
+    public static int[] listToArray(ListNode head) {
         int[] temp = new int[100];
         int count = 0;
         while (head != null) {
